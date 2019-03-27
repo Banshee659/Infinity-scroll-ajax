@@ -20,7 +20,8 @@
       $blog_post = [
         'id' => $id,
         'title' => "Blog Post #{$id}",
-        'content' =>A very inspiring blog that contains motivational stories about startups and the people who work in them and create them. If you need a pick me up after a bad day at the office or think that you can’t become that person who goes it along and starts up something awesome, then why not have a read. You’ll soon hear about people who literally only had the shirt on their backs and who rose up to be a success in business and in life.      ];
+        'content' =>"A very inspiring blog that contains motivational stories about startups and the people who work in them and create them. If you need a pick me up after a bad day at the office or think that you can’t become that person who goes it along and starts up something awesome, then why not have a read. You’ll soon hear about people who literally only had the shirt on their backs and who rose up to be a success in business and in life."      
+        ];
       $blog_posts[] = $blog_post;
     }
     return $blog_posts;
